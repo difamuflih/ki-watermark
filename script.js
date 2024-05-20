@@ -75,6 +75,6 @@ function downloadResult() {
   const canvas = document.getElementById("watermarkedCanvas");
   const link = document.createElement("a");
   link.href = canvas.toDataURL("image/png");
-  link.download = "watermarked_image.png";
+  link.download = "SADWatermark.png";
   link.click();
 }
