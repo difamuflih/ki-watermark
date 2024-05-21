@@ -44,7 +44,7 @@ function applyWatermark() {
       });
     });
   } else {
-    alert("Please select both input and watermark images.");
+    alert("Please Input Image and Watermark");
   }
 }
 
@@ -67,7 +67,7 @@ function detectWatermark() {
       ctx.putImageData(detectImageData, 0, 0);
     });
   } else {
-    alert("Please select an image to detect the watermark.");
+    alert("Please input Image for detected");
   }
 }
 
